@@ -1,4 +1,4 @@
 event-trigger
 =============
 
-A cross browser event trigger function
+A cross browser Element event trigger method
