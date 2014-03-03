@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Trigger Event</title>
+    <link rel="stylesheet" type="text/css" href="/stylesheets/main.css">
+    
+</head>
+<body>
+    <button>Click Me</button>
+    <script type="text/javascript" data-main="/javascripts/main.js" src="/javascripts/require.js"></script>
+    <script type="text/javascript">
+        window.onload = function() {
+
+            var script = document.createElement('script');
+
+            script.type = 'text/javascript';
+            script.setAttribute('data-main', '/javascripts/main.js');
+            script.src = '/javascripts/require.js';
+
+            document.body.appendChild(script);
+
+        };
+    </script>
+</body>
+</html>
